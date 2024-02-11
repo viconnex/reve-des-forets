@@ -9,7 +9,7 @@ import Link from 'next/link'
 const inter = Quattrocento({ weight: ['400', '700'], subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Rêve des forêts',
+  title: 'Rêve des Forêts',
   description: "Association de grimpe d'arbre et de spectacles perchés",
 }
 
@@ -24,7 +24,7 @@ export default function RootLayout({
         <div className="flex bg-primary p-3 items-center shadow-sm">
           <Image src={logo} alt="logo-rêve-des-forêts" width={80} height={80} />
           <div className="ml-4">
-            <h1 className="text-2xl font-semibold">Rêve des forêts</h1>
+            <h1 className="text-2xl font-semibold">Rêve des Forêts</h1>
             <h3>Association de grimpe d'arbre</h3>
           </div>
         </div>
