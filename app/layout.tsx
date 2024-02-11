@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Quattrocento } from 'next/font/google'
 import './globals.css'
 import clsx from 'clsx'
 import logo from '@/public/logo_balancoire.png'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Quattrocento({ weight: ['400', '700'], subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Rêve des forêts',
@@ -32,7 +32,7 @@ export default function RootLayout({
         <div className="p-4 bg-primary flex flex-column items-center justify-between color-white">
           <div>Rêve des Forêts - 2024</div>
           <div className="flex flex-col items-end">
-            <div>revedesforets@gmail.com</div>
+            <Link href="mailto:revedesforets@gmail.com">revedesforets@gmail.com</Link>
             <div>07 82 52 89 05</div>
             <Link href="https://www.facebook.com/reve.des.forets">Facebook</Link>
           </div>
