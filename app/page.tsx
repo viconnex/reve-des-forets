@@ -15,7 +15,7 @@ export default function Home() {
           alt="Grimpe d'arbre en hiver"
         />
       </div>
-      <Card className="p-4 md:p-8 max-w-[350px]">
+      <Card className="p-4 md:p-8 max-w-[450px]">
         <CardHeader>
           <CardTitle>Admirer le monde</CardTitle>
         </CardHeader>
