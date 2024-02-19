@@ -12,7 +12,7 @@ export default function Home() {
           quality={100}
           fill
           style={{ objectFit: 'cover' }}
-          alt="Grimpe d'arbre en hiver"
+          alt="Grimpe d'arbres en hiver"
         />
       </div>
       <Card className="p-4 md:p-8 max-w-[450px]">
