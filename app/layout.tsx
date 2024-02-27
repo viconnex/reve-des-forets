@@ -33,9 +33,13 @@ export default function RootLayout({
         <div className="p-4 bg-primary flex flex-column items-center justify-between color-white">
           <div>Rêve des Forêts - 2024</div>
           <div className="flex flex-col items-end">
-            <Link href="mailto:revedesforets@gmail.com">revedesforets@gmail.com</Link>
+            <Link target="_blank" href="mailto:revedesforets@gmail.com">
+              revedesforets@gmail.com
+            </Link>
             <div>07 82 52 89 05</div>
-            <Link href={FACEBOOK_URL}>Facebook</Link>
+            <Link target="_blank" href={FACEBOOK_URL}>
+              Facebook
+            </Link>
           </div>
         </div>
       </body>
