@@ -6,7 +6,14 @@ export default function Home() {
   return (
     <div className="relative flex-1 flex flex-col justify-center items-center w-screen p-12 md:p-16">
       <div className="absolute h-full w-full -z-10">
-        <Image src={treeTop} placeholder="blur" fill style={{ objectFit: 'cover' }} alt="Grimpe d'arbres en hiver" />
+        <Image
+          src={treeTop}
+          placeholder="blur"
+          fill
+          style={{ objectFit: 'cover' }}
+          priority
+          alt="Grimpe d'arbres en hiver"
+        />
       </div>
       <div className="flex flex-wrap w-full gap-y-16 gap-x-10 lg:gap-x-36 justify-center">
         <Card className="p-8 md:p-12 max-w-[500px] bg-primary border-0 flex flex-col justify-between">
