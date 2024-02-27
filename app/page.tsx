@@ -6,7 +6,7 @@ import { FACEBOOK_URL } from '@/lib/constants'
 
 export default function Home() {
   return (
-    <div className="relative flex-1 flex flex-col justify-center items-center w-screen p-12 md:p-16">
+    <div className="relative flex-1 flex flex-col justify-center items-center w-screen p-8 md:p-12">
       <div className="absolute h-full w-full -z-10">
         <Image
           src={treeTop}
@@ -37,13 +37,14 @@ export default function Home() {
           <div className="mt-4">
             <CardTitle>Contactez-nous !</CardTitle>
             <p className="mt-2">
-              07 82 52 89 05 -{' '}
+              Suivez nous sur{' '}
               <Link target="_blank" href={FACEBOOK_URL}>
-                Facebook
+                Facebook.
               </Link>
             </p>
-            <p className="mt-2">90 Rue des Marseillais</p>
-            <p> 38350 Susville</p>
+            <p className="mt-1">Appelez-nous au 07 82 52 89 05.</p>
+            <p className="mt-1">Envoyez-nous une carte postale:</p>
+            <p>{'\n'}90 Rue des Marseillais - 38350 Susville</p>
           </div>
         </Card>
         <Card className="p-8 bg-primary border-0">
