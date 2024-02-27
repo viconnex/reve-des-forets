@@ -5,6 +5,7 @@ import clsx from 'clsx'
 import logo from '@/public/logo_balancoire.png'
 import Image from 'next/image'
 import Link from 'next/link'
+import { FACEBOOK_URL } from '@/lib/constants'
 
 const inter = Quattrocento({ weight: ['400', '700'], subsets: ['latin'] })
 
@@ -34,7 +35,7 @@ export default function RootLayout({
           <div className="flex flex-col items-end">
             <Link href="mailto:revedesforets@gmail.com">revedesforets@gmail.com</Link>
             <div>07 82 52 89 05</div>
-            <Link href="https://www.facebook.com/reve.des.forets">Facebook</Link>
+            <Link href={FACEBOOK_URL}>Facebook</Link>
           </div>
         </div>
       </body>
