@@ -27,7 +27,7 @@ export default function Home() {
           </div>
           <div className="mt-4">
             <CardTitle>Rêve des forêts vous propose...</CardTitle>
-            <p className="mt-2">Des ateliers initiations, des animations de séjour, des ateliers à thèmes.</p>
+            <p className="mt-2">Des ateliers initiations, des animations de séjour, des ateliers à thèmes...</p>
           </div>
           <div className="mt-4">
             <CardTitle>Contactez-nous !</CardTitle>
