@@ -30,16 +30,20 @@ export default function RootLayout({
           </div>
         </div>
         {children}
-        <div className="p-4 bg-primary flex flex-column items-center justify-between color-white">
-          <div>Rêve des Forêts - 2024</div>
-          <div className="flex flex-col items-end">
+        <div className="p-4 bg-primary flex flex-col lg:flex-row lg:items-center justify-between color-white">
+          <div className="flex flex-col">
+            <div>Rêve des Forêts - 2024</div>
+            <div className="mt-4">90 rue des Marseillais</div>
+            <div>38350 Susville</div>
+          </div>
+          <div className="flex flex-col mt-4 lg:mt-0 lg:items-end">
+            <Link target="_blank" href={FACEBOOK_URL}>
+              Suivez-nous sur Facebook
+            </Link>
             <Link target="_blank" href="mailto:revedesforets@gmail.com">
               revedesforets@gmail.com
             </Link>
             <div>07 82 52 89 05</div>
-            <Link target="_blank" href={FACEBOOK_URL}>
-              Facebook
-            </Link>
           </div>
         </div>
       </body>
