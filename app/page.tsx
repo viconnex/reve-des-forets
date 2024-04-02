@@ -31,11 +31,7 @@ export default function Home() {
         />
       </div>
 
-      <div
-        className="easyloisirs_module"
-        data-hash="be0950aac163a65aa0865efd3a5f952ab7afe91c"
-        id="be0950aac163a65aa0865efd3a5f952ab7afe91c"
-      ></div>
+      <div className="easyloisirs_module" data-hash="a72cb35af03765aa71057689a19131335ad7996b"></div>
     </div>
   )
 }
