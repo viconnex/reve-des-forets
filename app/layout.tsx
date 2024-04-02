@@ -6,6 +6,7 @@ import logo from '@/public/logo_balancoire.png'
 import Image from 'next/image'
 import Link from 'next/link'
 import { FACEBOOK_URL } from '@/lib/constants'
+import Script from 'next/script'
 
 const inter = Quattrocento({ weight: ['400', '700'], subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={clsx(inter.className, 'flex flex-col min-h-screen')}>
+        <Script src="https://booking.addock.co/widget.js" strategy="beforeInteractive" />
         <div className="flex bg-primary p-3 items-center shadow-sm">
           <Image src={logo} alt="logo-rêve-des-forêts" width={80} height={80} />
           <div className="ml-4">

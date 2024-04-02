@@ -30,6 +30,12 @@ export default function Home() {
           alt="brochure-programme-printemps"
         />
       </div>
+
+      <div
+        className="easyloisirs_module"
+        data-hash="be0950aac163a65aa0865efd3a5f952ab7afe91c"
+        id="be0950aac163a65aa0865efd3a5f952ab7afe91c"
+      ></div>
     </div>
   )
 }
