@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={clsx(inter.className, 'flex flex-col min-h-screen')}>
-        <Script src="https://booking.addock.co/widget.js" strategy="beforeInteractive" />
+        <Script type="text/javascript" src="https://booking.addock.co/widget.js" strategy="beforeInteractive" />
         <div className="flex bg-primary p-3 items-center shadow-sm">
           <Image src={logo} alt="logo-rêve-des-forêts" width={80} height={80} />
           <div className="ml-4">
