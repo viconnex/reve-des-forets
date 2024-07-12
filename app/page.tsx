@@ -17,17 +17,17 @@ export default function Home() {
       <div className="flex flex-col w-full justify-center items-center">
         <Image
           className="border-black border-2"
-          src="/leaflet_2024/activities.jpeg"
+          src="/leaflet_2024/ponsonnas.jpg"
           width={600}
           height={1000}
-          alt="brochure-activités"
+          alt="brochure-grimpe-d-arbre-ponsonnas"
         />
         <Image
           className="border-black border-2 mt-8"
-          src="/leaflet_2024/program_spring.jpeg"
+          src="/leaflet_2024/notre-dame-de-vaulx.jpg"
           width={600}
           height={1000}
-          alt="brochure-programme-printemps"
+          alt="brochure-bivouas-notre-dame-de-vaulx"
         />
       </div>
 
